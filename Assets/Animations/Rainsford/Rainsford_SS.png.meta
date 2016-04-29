@@ -1,0 +1,3007 @@
+fileFormatVersion: 2
+guid: dd8f913cee6a54d3f805e0695fefa7ca
+timeCreated: 1461809693
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rainsford_SS_0
+    21300002: Rainsford_SS_1
+    21300004: Rainsford_SS_2
+    21300006: Rainsford_SS_3
+    21300008: Rainsford_SS_4
+    21300010: Rainsford_SS_5
+    21300012: Rainsford_SS_6
+    21300014: Rainsford_SS_7
+    21300016: Rainsford_SS_8
+    21300018: Rainsford_SS_9
+    21300020: Rainsford_SS_10
+    21300022: Rainsford_SS_11
+    21300024: Rainsford_SS_12
+    21300026: Rainsford_SS_13
+    21300028: Rainsford_SS_14
+    21300030: Rainsford_SS_15
+    21300032: Rainsford_SS_16
+    21300034: Rainsford_SS_17
+    21300036: Rainsford_SS_18
+    21300038: Rainsford_SS_19
+    21300040: Rainsford_SS_20
+    21300042: Rainsford_SS_21
+    21300044: Rainsford_SS_22
+    21300046: Rainsford_SS_23
+    21300048: Rainsford_SS_24
+    21300050: Rainsford_SS_25
+    21300052: Rainsford_SS_26
+    21300054: Rainsford_SS_27
+    21300056: Rainsford_SS_28
+    21300058: Rainsford_SS_29
+    21300060: Rainsford_SS_30
+    21300062: Rainsford_SS_31
+    21300064: Rainsford_SS_32
+    21300066: Rainsford_SS_33
+    21300068: Rainsford_SS_34
+    21300070: Rainsford_SS_35
+    21300072: Rainsford_SS_36
+    21300074: Rainsford_SS_37
+    21300076: Rainsford_SS_38
+    21300078: Rainsford_SS_39
+    21300080: Rainsford_SS_40
+    21300082: Rainsford_SS_41
+    21300084: Rainsford_SS_42
+    21300086: Rainsford_SS_43
+    21300088: Rainsford_SS_44
+    21300090: Rainsford_SS_45
+    21300092: Rainsford_SS_46
+    21300094: Rainsford_SS_47
+    21300096: Rainsford_SS_48
+    21300098: Rainsford_SS_49
+    21300100: Rainsford_SS_50
+    21300102: Rainsford_SS_51
+    21300104: Rainsford_SS_52
+    21300106: Rainsford_SS_53
+    21300108: Rainsford_SS_54
+    21300110: Rainsford_SS_55
+    21300112: Rainsford_SS_56
+    21300114: Rainsford_SS_57
+    21300116: Rainsford_SS_58
+    21300118: Rainsford_SS_59
+    21300120: Rainsford_SS_60
+    21300122: Rainsford_SS_61
+    21300124: Rainsford_SS_62
+    21300126: Rainsford_SS_63
+    21300128: Rainsford_SS_64
+    21300130: Rainsford_SS_65
+    21300132: Rainsford_SS_66
+    21300134: Rainsford_SS_67
+    21300136: Rainsford_SS_68
+    21300138: Rainsford_SS_69
+    21300140: Rainsford_SS_70
+    21300142: Rainsford_SS_71
+    21300144: Rainsford_SS_72
+    21300146: Rainsford_SS_73
+    21300148: Rainsford_SS_74
+    21300150: Rainsford_SS_75
+    21300152: Rainsford_SS_76
+    21300154: Rainsford_SS_77
+    21300156: Rainsford_SS_78
+    21300158: Rainsford_SS_79
+    21300160: Rainsford_SS_80
+    21300162: Rainsford_SS_81
+    21300164: Rainsford_SS_82
+    21300166: Rainsford_SS_83
+    21300168: Rainsford_SS_84
+    21300170: Rainsford_SS_85
+    21300172: Rainsford_SS_86
+    21300174: Rainsford_SS_87
+    21300176: Rainsford_SS_88
+    21300178: Rainsford_SS_89
+    21300180: Rainsford_SS_90
+    21300182: Rainsford_SS_91
+    21300184: Rainsford_SS_92
+    21300186: Rainsford_SS_93
+    21300188: Rainsford_SS_94
+    21300190: Rainsford_SS_95
+    21300192: Rainsford_SS_96
+    21300194: Rainsford_SS_97
+    21300196: Rainsford_SS_98
+    21300198: Rainsford_SS_99
+    21300200: Rainsford_SS_100
+    21300202: Rainsford_SS_101
+    21300204: Rainsford_SS_102
+    21300206: Rainsford_SS_103
+    21300208: Rainsford_SS_104
+    21300210: Rainsford_SS_105
+    21300212: Rainsford_SS_106
+    21300214: Rainsford_SS_107
+    21300216: Rainsford_SS_108
+    21300218: Rainsford_SS_109
+    21300220: Rainsford_SS_110
+    21300222: Rainsford_SS_111
+    21300224: Rainsford_SS_112
+    21300226: Rainsford_SS_113
+    21300228: Rainsford_SS_114
+    21300230: Rainsford_SS_115
+    21300232: Rainsford_SS_116
+    21300234: Rainsford_SS_117
+    21300236: Rainsford_SS_118
+    21300238: Rainsford_SS_119
+    21300240: Rainsford_SS_120
+    21300242: Rainsford_SS_121
+    21300244: Rainsford_SS_122
+    21300246: Rainsford_SS_123
+    21300248: Rainsford_SS_124
+    21300250: Rainsford_SS_125
+    21300252: Rainsford_SS_126
+    21300254: Rainsford_SS_127
+    21300256: Rainsford_SS_128
+    21300258: Rainsford_SS_129
+    21300260: Rainsford_SS_130
+    21300262: Rainsford_SS_131
+    21300264: Rainsford_SS_132
+    21300266: Rainsford_SS_133
+    21300268: Rainsford_SS_134
+    21300270: Rainsford_SS_135
+    21300272: Rainsford_SS_136
+    21300274: Rainsford_SS_137
+    21300276: Rainsford_SS_138
+    21300278: Rainsford_SS_139
+    21300280: Rainsford_SS_140
+    21300282: Rainsford_SS_141
+    21300284: Rainsford_SS_142
+    21300286: Rainsford_SS_143
+    21300288: Rainsford_SS_144
+    21300290: Rainsford_SS_145
+    21300292: Rainsford_SS_146
+    21300294: Rainsford_SS_147
+    21300296: Rainsford_SS_148
+    21300298: Rainsford_SS_149
+    21300300: Rainsford_SS_150
+    21300302: Rainsford_SS_151
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rainsford_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3120
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -22, y: 11}
+        - {x: -22, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 32}
+    - name: Rainsford_SS_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -32}
+        - {x: 32, y: 8}
+        - {x: 24, y: 32}
+        - {x: -13, y: 32}
+        - {x: -22, y: 15}
+        - {x: -22, y: -40}
+        - {x: 13, y: -40}
+    - name: Rainsford_SS_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 32}
+        - {x: -13, y: 32}
+        - {x: -22, y: 15}
+        - {x: -22, y: -40}
+        - {x: 27, y: -40}
+        - {x: 32, y: -35}
+        - {x: 32, y: 15}
+    - name: Rainsford_SS_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 32}
+        - {x: -22, y: 16}
+        - {x: -22, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 25}
+        - {x: 25, y: 32}
+      - - {x: 20, y: 32}
+        - {x: 18, y: 30}
+        - {x: 18, y: 20}
+        - {x: 20, y: 18}
+        - {x: 30, y: 18}
+        - {x: 32, y: 20}
+        - {x: 32, y: 30}
+        - {x: 30, y: 32}
+    - name: Rainsford_SS_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 32}
+        - {x: -13, y: 32}
+        - {x: -22, y: 16}
+        - {x: -22, y: -40}
+        - {x: 28, y: -40}
+        - {x: 32, y: -37}
+        - {x: 32, y: 14}
+    - name: Rainsford_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 22}
+        - {x: -21, y: 22}
+        - {x: -40, y: -26}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -15}
+        - {x: 29, y: 3}
+      - - {x: 8, y: 40}
+        - {x: 8, y: 30}
+        - {x: 10, y: 28}
+        - {x: 20, y: 28}
+        - {x: 22, y: 30}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 12}
+        - {x: -40, y: -21}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -2}
+        - {x: 20, y: 12}
+      - - {x: 0, y: 32}
+        - {x: -2, y: 30}
+        - {x: -2, y: 20}
+        - {x: 0, y: 18}
+        - {x: 10, y: 18}
+        - {x: 12, y: 20}
+        - {x: 12, y: 30}
+        - {x: 10, y: 32}
+    - name: Rainsford_SS_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 22}
+        - {x: -21, y: 22}
+        - {x: -40, y: -26}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -15}
+        - {x: 29, y: 3}
+      - - {x: 8, y: 40}
+        - {x: 8, y: 30}
+        - {x: 10, y: 28}
+        - {x: 20, y: 28}
+        - {x: 22, y: 30}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 12}
+        - {x: -40, y: -21}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -2}
+        - {x: 20, y: 12}
+      - - {x: 0, y: 32}
+        - {x: -2, y: 30}
+        - {x: -2, y: 20}
+        - {x: 0, y: 18}
+        - {x: 10, y: 18}
+        - {x: 12, y: 20}
+        - {x: 12, y: 30}
+        - {x: 10, y: 32}
+    - name: Rainsford_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 32}
+        - {x: -25, y: 28}
+        - {x: -32, y: 10}
+        - {x: -32, y: -2}
+        - {x: -20, y: -2}
+        - {x: -18, y: 0}
+        - {x: -32, y: -30}
+        - {x: -32, y: -40}
+        - {x: 39, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 32}
+    - name: Rainsford_SS_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22}
+        - {x: -22, y: 6}
+        - {x: -22, y: -40}
+        - {x: 14, y: -40}
+        - {x: 32, y: -23}
+        - {x: 32, y: 13}
+        - {x: 22, y: 22}
+    - name: Rainsford_SS_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 32}
+        - {x: -32, y: 2}
+        - {x: -32, y: -31}
+        - {x: -29, y: -39}
+        - {x: -11, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -4}
+        - {x: 21, y: 32}
+    - name: Rainsford_SS_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 22}
+        - {x: -22, y: 8}
+        - {x: -22, y: -40}
+        - {x: 26, y: -40}
+        - {x: 32, y: -37}
+        - {x: 32, y: 19}
+        - {x: 31, y: 22}
+    - name: Rainsford_SS_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 22}
+        - {x: -40, y: -6}
+        - {x: -40, y: -22}
+        - {x: -29, y: -24}
+        - {x: -24, y: -31}
+        - {x: -13, y: -40}
+        - {x: 12, y: -40}
+        - {x: 22, y: -14}
+        - {x: 22, y: 20}
+        - {x: 13, y: 22}
+    - name: Rainsford_SS_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 12}
+        - {x: -32, y: -4}
+        - {x: -32, y: -40}
+        - {x: 3, y: -40}
+        - {x: 12, y: -33}
+        - {x: 12, y: 12}
+    - name: Rainsford_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 32}
+        - {x: -10, y: 32}
+        - {x: -14, y: 31}
+        - {x: -32, y: 14}
+        - {x: -32, y: -12}
+        - {x: -19, y: -12}
+        - {x: -18, y: -10}
+        - {x: -22, y: -20}
+        - {x: -23, y: -32}
+        - {x: 13, y: -32}
+        - {x: 28, y: -30}
+        - {x: 32, y: -11}
+        - {x: 32, y: 15}
+    - name: Rainsford_SS_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 32}
+        - {x: -22, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: 31}
+        - {x: 10, y: 32}
+    - name: Rainsford_SS_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2640
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 2}
+        - {x: -23, y: 2}
+        - {x: -29, y: 0}
+        - {x: -32, y: -15}
+    - name: Rainsford_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 2}
+        - {x: -23, y: 2}
+        - {x: -29, y: 0}
+        - {x: -32, y: -15}
+    - name: Rainsford_SS_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 2}
+        - {x: -37, y: -1}
+        - {x: -40, y: -23}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 2}
+    - name: Rainsford_SS_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 2}
+        - {x: -23, y: 2}
+        - {x: -29, y: 0}
+        - {x: -32, y: -15}
+    - name: Rainsford_SS_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 2}
+        - {x: -30, y: -1}
+        - {x: -40, y: -26}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -23}
+        - {x: 21, y: 2}
+    - name: Rainsford_SS_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 32}
+        - {x: -25, y: 28}
+        - {x: -32, y: 10}
+        - {x: -32, y: -2}
+        - {x: -20, y: -2}
+        - {x: -18, y: 0}
+        - {x: -32, y: -30}
+        - {x: -32, y: -40}
+        - {x: 39, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 32}
+    - name: Rainsford_SS_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22}
+        - {x: -22, y: 17}
+        - {x: -22, y: -40}
+        - {x: 13, y: -40}
+        - {x: 32, y: 0}
+        - {x: 32, y: 22}
+    - name: Rainsford_SS_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22}
+        - {x: -32, y: 1}
+        - {x: -32, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 22}
+    - name: Rainsford_SS_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 40}
+        - {x: -22, y: 26}
+        - {x: -22, y: -40}
+        - {x: 27, y: -40}
+        - {x: 32, y: 0}
+        - {x: 32, y: 40}
+    - name: Rainsford_SS_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 25}
+        - {x: -22, y: -30}
+        - {x: -19, y: -40}
+        - {x: 13, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 28}
+        - {x: 21, y: 32}
+    - name: Rainsford_SS_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -40}
+        - {x: 14, y: -40}
+        - {x: 32, y: -21}
+        - {x: 32, y: 11}
+        - {x: 10, y: 32}
+        - {x: -10, y: 32}
+        - {x: -32, y: 24}
+    - name: Rainsford_SS_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -8}
+        - {x: -22, y: -20}
+        - {x: -22, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: -17}
+        - {x: 10, y: -8}
+    - name: Rainsford_SS_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -12}
+        - {x: -31, y: -14}
+        - {x: -20, y: -12}
+        - {x: -18, y: -10}
+        - {x: -22, y: -20}
+        - {x: -22, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 32}
+    - name: Rainsford_SS_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 32}
+        - {x: -32, y: 5}
+        - {x: -32, y: -27}
+        - {x: -22, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 3}
+        - {x: 11, y: 32}
+    - name: Rainsford_SS_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 12}
+        - {x: -32, y: -2}
+        - {x: -32, y: -33}
+        - {x: -16, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -4}
+        - {x: 18, y: 12}
+    - name: Rainsford_SS_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -8}
+        - {x: -32, y: -18}
+        - {x: -32, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -21}
+        - {x: 21, y: -8}
+    - name: Rainsford_SS_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -18}
+        - {x: -40, y: -28}
+        - {x: -40, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -25}
+        - {x: 10, y: -18}
+    - name: Rainsford_SS_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -32, y: 10}
+    - name: Rainsford_SS_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -40, y: 7}
+        - {x: -40, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -40, y: 7}
+        - {x: -40, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -32, y: 10}
+    - name: Rainsford_SS_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 22}
+        - {x: -40, y: 9}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2080
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 22}
+        - {x: -40, y: 12}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -14}
+        - {x: 40, y: 12}
+        - {x: 30, y: 22}
+    - name: Rainsford_SS_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2080
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 4}
+        - {x: -32, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: 4}
+        - {x: 40, y: 22}
+        - {x: -40, y: 22}
+    - name: Rainsford_SS_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2080
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 22}
+        - {x: -40, y: -33}
+        - {x: -39, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -14}
+        - {x: 40, y: 20}
+        - {x: 31, y: 22}
+    - name: Rainsford_SS_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2080
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 22}
+        - {x: -40, y: 18}
+        - {x: -40, y: -34}
+        - {x: -38, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 22}
+        - {x: -40, y: 18}
+        - {x: -40, y: -34}
+        - {x: -38, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2000
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 22}
+        - {x: -40, y: -33}
+        - {x: -39, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -14}
+        - {x: 40, y: 20}
+        - {x: 31, y: 22}
+    - name: Rainsford_SS_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2000
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 4}
+        - {x: -32, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: 4}
+        - {x: 40, y: 22}
+        - {x: -40, y: 22}
+    - name: Rainsford_SS_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2000
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 22}
+        - {x: -40, y: 12}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -14}
+        - {x: 40, y: 12}
+        - {x: 30, y: 22}
+    - name: Rainsford_SS_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2000
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 22}
+        - {x: -40, y: 9}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -32, y: 11}
+        - {x: -32, y: -40}
+        - {x: 2, y: -40}
+        - {x: 2, y: 32}
+    - name: Rainsford_SS_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1920
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 22}
+        - {x: -24, y: 21}
+        - {x: -40, y: 9}
+        - {x: -40, y: -19}
+        - {x: -34, y: -40}
+        - {x: -7, y: -40}
+        - {x: 12, y: -31}
+        - {x: 12, y: 12}
+        - {x: 9, y: 22}
+    - name: Rainsford_SS_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1920
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 12}
+        - {x: -32, y: 8}
+        - {x: -32, y: -32}
+        - {x: -31, y: -37}
+        - {x: -15, y: -40}
+        - {x: 2, y: -40}
+        - {x: 2, y: 10}
+        - {x: 0, y: 12}
+    - name: Rainsford_SS_57
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1920
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -10}
+        - {x: -12, y: -33}
+        - {x: -3, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: -10}
+        - {x: 10, y: -8}
+        - {x: -10, y: -8}
+    - name: Rainsford_SS_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1920
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -8}
+        - {x: -12, y: -10}
+        - {x: -12, y: -23}
+        - {x: 0, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: -8}
+    - name: Rainsford_SS_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 25}
+        - {x: -22, y: -30}
+        - {x: -19, y: -40}
+        - {x: 13, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 28}
+        - {x: 21, y: 32}
+    - name: Rainsford_SS_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 32}
+        - {x: -22, y: 3}
+        - {x: -22, y: -19}
+        - {x: -12, y: -40}
+        - {x: 11, y: -40}
+        - {x: 22, y: -19}
+        - {x: 22, y: 18}
+        - {x: 15, y: 32}
+    - name: Rainsford_SS_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 25}
+        - {x: -22, y: -30}
+        - {x: -19, y: -40}
+        - {x: 13, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 28}
+        - {x: 21, y: 32}
+    - name: Rainsford_SS_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 23}
+        - {x: -22, y: -28}
+        - {x: -20, y: -36}
+        - {x: -4, y: -40}
+        - {x: 14, y: -40}
+        - {x: 22, y: -11}
+        - {x: 22, y: 10}
+        - {x: 13, y: 32}
+    - name: Rainsford_SS_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -40}
+        - {x: 9, y: -40}
+        - {x: 12, y: -23}
+        - {x: 12, y: 22}
+        - {x: -14, y: 22}
+        - {x: -22, y: 17}
+    - name: Rainsford_SS_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -22, y: 12}
+        - {x: -22, y: -28}
+        - {x: -19, y: -40}
+        - {x: 2, y: -40}
+        - {x: 12, y: -31}
+        - {x: 12, y: 17}
+        - {x: 11, y: 22}
+    - name: Rainsford_SS_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -36}
+        - {x: -21, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 12}
+        - {x: -13, y: 12}
+        - {x: -22, y: 3}
+    - name: Rainsford_SS_66
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 2}
+        - {x: -22, y: -20}
+        - {x: -22, y: -35}
+        - {x: -13, y: -40}
+        - {x: 2, y: -40}
+        - {x: 12, y: -31}
+        - {x: 12, y: 0}
+        - {x: 11, y: 2}
+    - name: Rainsford_SS_67
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1840
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 2}
+        - {x: -22, y: -7}
+        - {x: -22, y: -35}
+        - {x: -19, y: -40}
+        - {x: 2, y: -40}
+        - {x: 2, y: 0}
+        - {x: 0, y: 2}
+    - name: Rainsford_SS_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 40}
+        - {x: -32, y: 1}
+        - {x: -32, y: -32}
+        - {x: 19, y: -32}
+        - {x: 22, y: -24}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 32}
+        - {x: -40, y: 26}
+        - {x: -40, y: -35}
+        - {x: -24, y: -40}
+        - {x: 14, y: -40}
+        - {x: 22, y: -23}
+        - {x: 22, y: 6}
+        - {x: 0, y: 32}
+    - name: Rainsford_SS_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 40}
+        - {x: -32, y: 1}
+        - {x: -32, y: -32}
+        - {x: 19, y: -32}
+        - {x: 22, y: -24}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -40, y: 26}
+        - {x: -40, y: -37}
+        - {x: -36, y: -40}
+        - {x: 4, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 15}
+        - {x: 4, y: 31}
+        - {x: -7, y: 40}
+      - - {x: -40, y: 32}
+        - {x: -40, y: 18}
+        - {x: -30, y: 18}
+        - {x: -28, y: 20}
+        - {x: -28, y: 30}
+        - {x: -30, y: 32}
+    - name: Rainsford_SS_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 40}
+        - {x: -32, y: 1}
+        - {x: -32, y: -32}
+        - {x: 19, y: -32}
+        - {x: 22, y: -24}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_73
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 22}
+        - {x: -40, y: -37}
+        - {x: -27, y: -40}
+        - {x: 11, y: -40}
+        - {x: 22, y: -30}
+        - {x: 22, y: -7}
+        - {x: 8, y: 22}
+      - - {x: -40, y: 40}
+        - {x: -40, y: 28}
+        - {x: -30, y: 28}
+        - {x: -28, y: 30}
+        - {x: -28, y: 40}
+    - name: Rainsford_SS_74
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 40}
+        - {x: -32, y: 1}
+        - {x: -32, y: -32}
+        - {x: 19, y: -32}
+        - {x: 22, y: -24}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_75
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1760
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 32}
+        - {x: -16, y: 32}
+        - {x: -32, y: 10}
+        - {x: -40, y: -16}
+        - {x: -40, y: -32}
+        - {x: -23, y: -40}
+        - {x: 15, y: -40}
+        - {x: 22, y: -26}
+        - {x: 22, y: 20}
+        - {x: 18, y: 25}
+    - name: Rainsford_SS_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 32}
+        - {x: -22, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 32}
+    - name: Rainsford_SS_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -32}
+        - {x: -35, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 32}
+        - {x: -24, y: 32}
+        - {x: -40, y: 13}
+    - name: Rainsford_SS_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1600
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -22}
+        - {x: -31, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 32}
+        - {x: -27, y: 32}
+        - {x: -40, y: 18}
+    - name: Rainsford_SS_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1600
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -17}
+        - {x: -28, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 32}
+        - {x: -24, y: 32}
+        - {x: -40, y: 13}
+      - - {x: -40, y: 32}
+        - {x: -40, y: 18}
+        - {x: -30, y: 18}
+        - {x: -28, y: 20}
+        - {x: -28, y: 30}
+        - {x: -30, y: 32}
+    - name: Rainsford_SS_80
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1600
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 32}
+        - {x: -40, y: 13}
+        - {x: -40, y: -13}
+        - {x: -22, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 32}
+    - name: Rainsford_SS_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -32, y: -19}
+        - {x: -32, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -20}
+        - {x: 24, y: 12}
+      - - {x: -12, y: 32}
+        - {x: -12, y: 18}
+        - {x: 2, y: 18}
+        - {x: 2, y: 31}
+        - {x: 0, y: 32}
+    - name: Rainsford_SS_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1520
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 22}
+        - {x: -19, y: 22}
+        - {x: -32, y: 2}
+        - {x: -32, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -25}
+        - {x: 30, y: 16}
+      - - {x: -22, y: 40}
+        - {x: -22, y: 30}
+        - {x: -20, y: 28}
+        - {x: -10, y: 28}
+        - {x: -8, y: 30}
+        - {x: -8, y: 40}
+    - name: Rainsford_SS_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1520
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -32, y: -19}
+        - {x: -32, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -20}
+        - {x: 24, y: 12}
+      - - {x: -12, y: 32}
+        - {x: -12, y: 18}
+        - {x: 2, y: 18}
+        - {x: 2, y: 31}
+        - {x: 0, y: 32}
+    - name: Rainsford_SS_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1520
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 22}
+        - {x: -19, y: 22}
+        - {x: -32, y: 2}
+        - {x: -32, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -25}
+        - {x: 30, y: 16}
+      - - {x: -22, y: 40}
+        - {x: -22, y: 30}
+        - {x: -20, y: 28}
+        - {x: -10, y: 28}
+        - {x: -8, y: 30}
+        - {x: -8, y: 40}
+    - name: Rainsford_SS_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -8}
+        - {x: 32, y: -2}
+        - {x: 32, y: 16}
+        - {x: 7, y: 32}
+        - {x: -40, y: 32}
+        - {x: -40, y: 18}
+        - {x: -30, y: 8}
+        - {x: -23, y: -31}
+        - {x: -7, y: -38}
+        - {x: 12, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -26}
+        - {x: 22, y: -10}
+    - name: Rainsford_SS_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1440
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 22}
+        - {x: -32, y: 10}
+        - {x: -32, y: -13}
+        - {x: -19, y: -35}
+        - {x: -4, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 11}
+        - {x: 0, y: 22}
+    - name: Rainsford_SS_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1440
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -6}
+        - {x: 12, y: 25}
+        - {x: 0, y: 32}
+        - {x: -29, y: 32}
+        - {x: -32, y: 21}
+        - {x: -32, y: -40}
+        - {x: 8, y: -40}
+        - {x: 32, y: -29}
+        - {x: 32, y: -8}
+        - {x: 31, y: -7}
+    - name: Rainsford_SS_88
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1440
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 22}
+        - {x: -32, y: 12}
+        - {x: -32, y: -38}
+        - {x: -19, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 7}
+        - {x: 8, y: 22}
+    - name: Rainsford_SS_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -8}
+        - {x: 10, y: 22}
+        - {x: -31, y: 22}
+        - {x: -40, y: 19}
+        - {x: -40, y: -14}
+        - {x: -32, y: -40}
+        - {x: 4, y: -40}
+        - {x: 22, y: -29}
+        - {x: 22, y: -10}
+    - name: Rainsford_SS_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1360
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 12}
+        - {x: -32, y: -40}
+        - {x: 12, y: -40}
+        - {x: 12, y: 12}
+    - name: Rainsford_SS_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 32}
+        - {x: -22, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: 32}
+    - name: Rainsford_SS_92
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1280
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 22}
+        - {x: -40, y: 7}
+        - {x: -40, y: -12}
+        - {x: -30, y: -12}
+        - {x: -28, y: -10}
+        - {x: -34, y: -19}
+        - {x: -37, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 20}
+        - {x: 17, y: 22}
+    - name: Rainsford_SS_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 2}
+        - {x: -32, y: -30}
+        - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: -19}
+        - {x: 14, y: -9}
+        - {x: 4, y: 2}
+    - name: Rainsford_SS_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 2}
+        - {x: -32, y: -30}
+        - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: -19}
+        - {x: 14, y: -9}
+        - {x: 4, y: 2}
+    - name: Rainsford_SS_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1120
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 2}
+        - {x: -40, y: -26}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -27}
+        - {x: -6, y: 2}
+    - name: Rainsford_SS_96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1120
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 2}
+        - {x: -32, y: -30}
+        - {x: -32, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: -19}
+        - {x: 14, y: -9}
+        - {x: 4, y: 2}
+    - name: Rainsford_SS_97
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1120
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -9}
+        - {x: 4, y: 2}
+        - {x: -23, y: 2}
+        - {x: -40, y: -27}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -30}
+        - {x: 30, y: -28}
+    - name: Rainsford_SS_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -8}
+        - {x: 32, y: -2}
+        - {x: 32, y: 16}
+        - {x: 7, y: 32}
+        - {x: -40, y: 32}
+        - {x: -40, y: 18}
+        - {x: -30, y: 8}
+        - {x: -23, y: -31}
+        - {x: -7, y: -38}
+        - {x: 12, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -26}
+        - {x: 22, y: -10}
+    - name: Rainsford_SS_99
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 22}
+        - {x: -32, y: 13}
+        - {x: -32, y: -12}
+        - {x: -6, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 19}
+        - {x: 10, y: 22}
+    - name: Rainsford_SS_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 22}
+        - {x: -32, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 6}
+        - {x: 23, y: 22}
+    - name: Rainsford_SS_101
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1040
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -32, y: 7}
+        - {x: -23, y: -2}
+        - {x: -24, y: -31}
+        - {x: -13, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 20}
+        - {x: -3, y: 40}
+    - name: Rainsford_SS_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 15}
+        - {x: 28, y: 32}
+        - {x: -26, y: 32}
+        - {x: -32, y: 20}
+        - {x: -32, y: -12}
+        - {x: -23, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: -20}
+        - {x: 32, y: -17}
+    - name: Rainsford_SS_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -8}
+        - {x: -22, y: -20}
+        - {x: -22, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: -17}
+        - {x: 10, y: -8}
+    - name: Rainsford_SS_104
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 32}
+        - {x: -32, y: 10}
+        - {x: -32, y: -10}
+        - {x: -12, y: -40}
+        - {x: 3, y: -40}
+        - {x: 32, y: -24}
+        - {x: 32, y: 25}
+        - {x: 14, y: 32}
+    - name: Rainsford_SS_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 25}
+        - {x: -22, y: -30}
+        - {x: -19, y: -40}
+        - {x: 13, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 28}
+        - {x: 21, y: 32}
+    - name: Rainsford_SS_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -18}
+        - {x: -40, y: -28}
+        - {x: -40, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: -25}
+        - {x: 10, y: -18}
+    - name: Rainsford_SS_107
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -8}
+        - {x: -37, y: -9}
+        - {x: -40, y: -25}
+        - {x: -40, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: -16}
+        - {x: 24, y: -8}
+    - name: Rainsford_SS_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -5}
+        - {x: 21, y: 12}
+        - {x: -17, y: 12}
+        - {x: -32, y: -6}
+        - {x: -32, y: -40}
+        - {x: 13, y: -40}
+        - {x: 30, y: -32}
+        - {x: 32, y: -30}
+    - name: Rainsford_SS_109
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 880
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 32}
+        - {x: -18, y: 32}
+        - {x: -32, y: 0}
+        - {x: -32, y: -13}
+        - {x: -20, y: -12}
+        - {x: -18, y: -10}
+        - {x: -22, y: -30}
+        - {x: -22, y: -40}
+        - {x: 12, y: -40}
+        - {x: 32, y: -14}
+        - {x: 32, y: 0}
+    - name: Rainsford_SS_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 15}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_111
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 16}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_112
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_113
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_114
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -40}
+        - {x: 22, y: 40}
+        - {x: -22, y: 40}
+        - {x: -22, y: -40}
+    - name: Rainsford_SS_118
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 16}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 15}
+        - {x: 22, y: 40}
+    - name: Rainsford_SS_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 22}
+        - {x: -40, y: 18}
+        - {x: -40, y: -34}
+        - {x: -38, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 640
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 22}
+        - {x: -40, y: 20}
+        - {x: -40, y: -33}
+        - {x: -39, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 15}
+        - {x: 38, y: 22}
+    - name: Rainsford_SS_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 4}
+        - {x: -32, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: 4}
+        - {x: 40, y: 22}
+        - {x: -40, y: 22}
+    - name: Rainsford_SS_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 22}
+        - {x: -40, y: -33}
+        - {x: -39, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -14}
+        - {x: 40, y: 20}
+        - {x: 31, y: 22}
+    - name: Rainsford_SS_124
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 22}
+        - {x: -40, y: 18}
+        - {x: -40, y: -34}
+        - {x: -38, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 22}
+        - {x: -40, y: 18}
+        - {x: -40, y: -34}
+        - {x: -38, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_126
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 22}
+        - {x: -40, y: -33}
+        - {x: -39, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: -14}
+        - {x: 40, y: 20}
+        - {x: 31, y: 22}
+    - name: Rainsford_SS_127
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 4}
+        - {x: -32, y: -40}
+        - {x: 32, y: -40}
+        - {x: 40, y: 4}
+        - {x: 40, y: 22}
+        - {x: -40, y: 22}
+    - name: Rainsford_SS_128
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 22}
+        - {x: -40, y: 20}
+        - {x: -40, y: -33}
+        - {x: -39, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 15}
+        - {x: 38, y: 22}
+    - name: Rainsford_SS_129
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 560
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 22}
+        - {x: -40, y: 18}
+        - {x: -40, y: -34}
+        - {x: -38, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 4}
+        - {x: 34, y: 22}
+    - name: Rainsford_SS_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 32}
+        - {x: -2, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 32}
+    - name: Rainsford_SS_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22}
+        - {x: -12, y: 8}
+        - {x: -12, y: -40}
+        - {x: 40, y: -40}
+        - {x: 40, y: 10}
+        - {x: 32, y: 22}
+    - name: Rainsford_SS_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 12}
+        - {x: 0, y: 12}
+        - {x: -2, y: 10}
+        - {x: -2, y: -40}
+        - {x: 13, y: -40}
+        - {x: 25, y: -32}
+        - {x: 32, y: -11}
+        - {x: 32, y: 6}
+    - name: Rainsford_SS_133
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -8}
+        - {x: -12, y: -10}
+        - {x: -12, y: -40}
+        - {x: 3, y: -40}
+        - {x: 12, y: -33}
+        - {x: 12, y: -8}
+    - name: Rainsford_SS_134
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -8}
+        - {x: -12, y: -10}
+        - {x: -12, y: -31}
+        - {x: -10, y: -32}
+        - {x: 5, y: -32}
+        - {x: 12, y: -23}
+        - {x: 12, y: -8}
+    - name: Rainsford_SS_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 25}
+        - {x: -22, y: -30}
+        - {x: -19, y: -40}
+        - {x: 13, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 28}
+        - {x: 21, y: 32}
+    - name: Rainsford_SS_136
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 23}
+        - {x: -22, y: -28}
+        - {x: -20, y: -36}
+        - {x: -4, y: -40}
+        - {x: 14, y: -40}
+        - {x: 22, y: -11}
+        - {x: 22, y: 10}
+        - {x: 13, y: 32}
+    - name: Rainsford_SS_137
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -22, y: 25}
+        - {x: -22, y: -30}
+        - {x: -19, y: -40}
+        - {x: 13, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 28}
+        - {x: 21, y: 32}
+    - name: Rainsford_SS_138
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 32}
+        - {x: -22, y: 3}
+        - {x: -22, y: -19}
+        - {x: -12, y: -40}
+        - {x: 11, y: -40}
+        - {x: 22, y: -19}
+        - {x: 22, y: 18}
+        - {x: 15, y: 32}
+    - name: Rainsford_SS_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 22}
+        - {x: -12, y: -29}
+        - {x: -10, y: -40}
+        - {x: 12, y: -40}
+        - {x: 22, y: -32}
+        - {x: 22, y: 22}
+    - name: Rainsford_SS_140
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 22}
+        - {x: -3, y: 22}
+        - {x: -12, y: 8}
+        - {x: -12, y: -32}
+        - {x: -8, y: -40}
+        - {x: 12, y: -40}
+        - {x: 22, y: -10}
+        - {x: 22, y: 5}
+    - name: Rainsford_SS_141
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -36}
+        - {x: -10, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 12}
+        - {x: -6, y: 12}
+        - {x: -12, y: 5}
+    - name: Rainsford_SS_142
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 2}
+        - {x: -5, y: 2}
+        - {x: -12, y: -7}
+        - {x: -12, y: -21}
+        - {x: -10, y: -22}
+        - {x: -2, y: -40}
+        - {x: 18, y: -40}
+        - {x: 22, y: -30}
+        - {x: 22, y: -8}
+        - {x: 13, y: 1}
+    - name: Rainsford_SS_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 2}
+        - {x: -2, y: 0}
+        - {x: -2, y: -40}
+        - {x: 18, y: -40}
+        - {x: 22, y: -30}
+        - {x: 22, y: -9}
+        - {x: 10, y: 2}
+    - name: Rainsford_SS_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 32}
+        - {x: -21, y: 26}
+        - {x: -22, y: 17}
+        - {x: -22, y: -26}
+        - {x: -3, y: -40}
+        - {x: 37, y: -40}
+        - {x: 40, y: -33}
+        - {x: 40, y: 6}
+        - {x: 19, y: 32}
+    - name: Rainsford_SS_145
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -31}
+        - {x: -18, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 2}
+        - {x: 13, y: 40}
+    - name: Rainsford_SS_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 22}
+        - {x: 6, y: 22}
+        - {x: -22, y: 2}
+        - {x: -22, y: -23}
+        - {x: -17, y: -35}
+        - {x: -4, y: -40}
+        - {x: 23, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: -6}
+        - {x: 34, y: 11}
+      - - {x: 28, y: 40}
+        - {x: 28, y: 30}
+        - {x: 30, y: 28}
+        - {x: 40, y: 28}
+        - {x: 40, y: 40}
+    - name: Rainsford_SS_147
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -31}
+        - {x: -18, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 2}
+        - {x: 13, y: 40}
+    - name: Rainsford_SS_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 40}
+        - {x: -22, y: 22}
+        - {x: -22, y: -40}
+        - {x: 26, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: -3}
+        - {x: 23, y: 40}
+      - - {x: 28, y: 30}
+        - {x: 28, y: 20}
+        - {x: 30, y: 18}
+        - {x: 40, y: 18}
+        - {x: 40, y: 32}
+        - {x: 30, y: 32}
+    - name: Rainsford_SS_149
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -31}
+        - {x: -18, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 2}
+        - {x: 13, y: 40}
+    - name: Rainsford_SS_150
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 32}
+        - {x: -16, y: 13}
+        - {x: -22, y: -9}
+        - {x: -22, y: -24}
+        - {x: -14, y: -31}
+        - {x: -3, y: -40}
+        - {x: 23, y: -40}
+        - {x: 40, y: -32}
+        - {x: 40, y: 28}
+        - {x: 27, y: 32}
+    - name: Rainsford_SS_151
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 40}
+        - {x: -22, y: -31}
+        - {x: -18, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 2}
+        - {x: 13, y: 40}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

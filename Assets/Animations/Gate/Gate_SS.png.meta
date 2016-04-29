@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: ac39d4ce7481a4e428d2c9a8d9fcdc5e
+timeCreated: 1461820734
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gate_SS_0
+    21300002: Gate_SS_1
+    21300004: Gate_SS_2
+    21300006: Gate_SS_3
+    21300008: Gate_SS_4
+    21300010: Gate_SS_5
+    21300012: Gate_SS_6
+    21300014: Gate_SS_7
+    21300016: Gate_SS_8
+    21300018: Gate_SS_9
+    21300020: Gate_SS_10
+    21300022: Gate_SS_11
+    21300024: Gate_SS_12
+    21300026: Gate_SS_13
+    21300028: Gate_SS_14
+    21300030: Gate_SS_15
+    21300032: Gate_SS_16
+    21300034: Gate_SS_17
+    21300036: Gate_SS_18
+    21300038: Gate_SS_19
+    21300040: Gate_SS_20
+    21300042: Gate_SS_21
+    21300044: Gate_SS_22
+    21300046: Gate_SS_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gate_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    - name: Gate_SS_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    - name: Gate_SS_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    - name: Gate_SS_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    - name: Gate_SS_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    - name: Gate_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    - name: Gate_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    - name: Gate_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 42}
+        - {x: 18, y: 40}
+        - {x: -20, y: 42}
+        - {x: -60, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 42}
+        - {x: -80, y: 22}
+        - {x: -80, y: -62}
+        - {x: -62, y: -80}
+        - {x: 62, y: -80}
+        - {x: 80, y: -62}
+        - {x: 80, y: 22}
+        - {x: 60, y: 42}
+    - name: Gate_SS_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 42}
+        - {x: -80, y: 28}
+        - {x: -80, y: -65}
+        - {x: -75, y: -80}
+        - {x: 75, y: -80}
+        - {x: 80, y: -64}
+        - {x: 80, y: 28}
+        - {x: 51, y: 42}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
