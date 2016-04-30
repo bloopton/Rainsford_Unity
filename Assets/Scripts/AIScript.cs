@@ -5,37 +5,83 @@ public class AIScript : MonoBehaviour {
 
 	MovementScript ms;
 	private float timer;
+	private float hostileTimer;
+	private Animator animator;
 	private float duration;
 	Rigidbody2D thisRB;
 	bool isCrawlingRight;
+	bool hostile;
+	bool startHostileTimer;
+
 
 	// Use this for initialization
 	void Start () {
+		animator = this.GetComponent<Animator> ();
+		hostile = false;
+		startHostileTimer = false;
 		isCrawlingRight = true;
 		thisRB = gameObject.GetComponent<Rigidbody2D> ();
 		timer = 0f;
-		duration = 3f;
+		hostileTimer = 0f;
+
+		duration = 2f;
 		ms = GetComponent<MovementScript> ();
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		patrol ();
+		if (!hostile)
+			patrol ();
+		else {
+			if (isRight()) {
+				ms.moveRight ();
+			} else {
+				ms.moveLeft ();
+			}
+		}
+		if (startHostileTimer) {
+			hostileTimer += Time.deltaTime;
+			if (hostileTimer >= 2f) {
+				animator.SetBool ("hostile", false);
+				hostile = false;
+				//transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+				hostileTimer = 0f;
+			}
+		}
+		if (Mathf.Abs(gameObject.GetComponent<Rigidbody2D> ().velocity.x) > 0) {
+			animator.SetBool ("moving", true);
+		}
+		else animator.SetBool ("hostile", false);
+		
+	}
+
+	bool isRight()//possibly move to movement script
+	{
+		if (transform.rotation.y == 0)
+			return true;//right
+		else //(transform.rotation.y == 180)
+			return false;//left driection
 	}
 
 	void patrol ()
 	{
 		if (isCrawlingRight) {
 			ms.crawlRight ();
-		} else
+		} else {
 			ms.crawlLeft ();
+		}
 		timer += Time.deltaTime;
 
 		if (timer >= duration) {
-			if (thisRB.velocity.x <= 0)
+			if (thisRB.velocity.x <= 0) {
 				isCrawlingRight = true;
-			else
+				transform.rotation = Quaternion.Euler(0,0,0);
+			}
+			else {
 				isCrawlingRight = false;
+				transform.rotation = Quaternion.Euler(0,180,0);
+			}
+			//transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 			timer = 0f;
 		}
 		Debug.Log ("X Velocity " + thisRB.velocity.x);
@@ -61,18 +107,27 @@ public class AIScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Player") {
+			startHostileTimer = false;
+			hostileTimer = 0;
+			hostile = true;
+			animator.SetBool ("hostile", true);
 			//become hostile, chase
 		}
 	}
 
+	/*
 	void OnTriggerStay2D(Collider2D other){
 		if (other.gameObject.tag == "Player") {
+			hostile = true;
 			//continue chasing, possibly redundant
 		}
 	}
+	*/
 
 	void OnTriggerExit2D(Collider2D other){
+		Debug.Log ("Exitted");
 		if (other.gameObject.tag == "Player") {
+			startHostileTimer = true;
 			//turn off hostile BUT continue chasing for fixedTime.
 			//return to patrol position/pattern
 		}

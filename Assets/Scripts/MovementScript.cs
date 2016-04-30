@@ -25,24 +25,32 @@ public class MovementScript : MonoBehaviour {
 		Vector2 vel = playerRB.velocity;
 		if (Mathf.Abs (playerRB.velocity.x) < maxCrawlSpeed)
 			playerRB.AddForce (new Vector2 (speed / 2, 0), ForceMode2D.Impulse);//new physics
+		//transform.rotation = Quaternion.Euler(0,0,0);
+
 	}
 
 	public void crawlLeft(){
 		Vector2 vel = playerRB.velocity;
 		if (Mathf.Abs (playerRB.velocity.x) < maxCrawlSpeed)
 			playerRB.AddForce (new Vector2 (-speed / 2, 0), ForceMode2D.Impulse);//new physics
+		//transform.rotation = Quaternion.Euler(0,180,0);
+
 	}
 
 	public void moveRight(){
 		Vector2 vel = playerRB.velocity;
 		if (Mathf.Abs (playerRB.velocity.x) < maxSpeed)
 			playerRB.AddForce (new Vector2 (speed / 2, 0), ForceMode2D.Impulse);//new physics
+		//transform.rotation = Quaternion.Euler(0,0,0);
+
 	}
 
 	public void moveLeft(){
 		Vector2 vel = playerRB.velocity;
 		if (Mathf.Abs (playerRB.velocity.x) < maxSpeed)
 			playerRB.AddForce (new Vector2 (-speed / 2, 0), ForceMode2D.Impulse);//new physics
+		//transform.rotation = Quaternion.Euler(0,180,0);
+	
 	}
 
 	public void jump(){
