@@ -3,14 +3,46 @@ using System.Collections;
 
 public class AIScript : MonoBehaviour {
 
+	MovementScript ms;
+	private float timer;
+	private float duration;
+	Rigidbody2D thisRB;
+	bool isCrawlingRight;
+
 	// Use this for initialization
 	void Start () {
-	
+		isCrawlingRight = true;
+		thisRB = gameObject.GetComponent<Rigidbody2D> ();
+		timer = 0f;
+		duration = 3f;
+		ms = GetComponent<MovementScript> ();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void FixedUpdate () {
+		patrol ();
+	}
+
+	void patrol ()
+	{
+		if (isCrawlingRight) {
+			ms.crawlRight ();
+		} else
+			ms.crawlLeft ();
+		timer += Time.deltaTime;
+
+		if (timer >= duration) {
+			if (thisRB.velocity.x <= 0)
+				isCrawlingRight = true;
+			else
+				isCrawlingRight = false;
+			timer = 0f;
+		}
+		Debug.Log ("X Velocity " + thisRB.velocity.x);
+	}
+
+	IEnumerator delay(){
+		yield return new WaitForSeconds (4);
 	}
 
 	void OnCollisionEnter2D(Collision2D coll) {

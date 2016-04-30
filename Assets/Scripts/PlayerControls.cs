@@ -127,7 +127,6 @@ public class PlayerControls : MonoBehaviour {
 			}
 		}
 		//PlayerPrefs.SetFloat ("CurrentPosX", transform.position.x);//Player prefs
-		Debug.Log ("X Velocity " + playerRB.velocity.x);
 	}
 
 	Collider2D gateCol;
