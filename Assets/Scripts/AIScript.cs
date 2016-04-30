@@ -94,11 +94,17 @@ public class AIScript : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy"){
 		//if currently hostile, damage
+			if (hostile) {
+				coll.gameObject.GetComponent<HealthScript> ().damage ();
+			}
 		}
 	}
 	void OnCollisionStay2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy"){
 		//if currently hostile, continue to damage
+			if (hostile) {
+				coll.gameObject.GetComponent<HealthScript> ().damage ();
+			}
 		}
 	}
 	void OnCollisionExit2D(Collision2D coll) {

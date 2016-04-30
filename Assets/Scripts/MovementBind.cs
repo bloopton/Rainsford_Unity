@@ -30,6 +30,9 @@ public class MovementBind : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (targetRB == null) {
+			targetRB = GameObject.Find ("Body").GetComponent<Rigidbody2D> ();
+		}
 		foreach (GameObject col in cols) {
 			if (targetRB.IsTouching (col.GetComponent<Collider2D> ())) {
 				bumped = true;
@@ -37,6 +40,10 @@ public class MovementBind : MonoBehaviour {
 			}
 		}
 
+		if (targetObj == null) {
+			targetObj = GameObject.Find ("Body");
+			target = targetObj.transform;
+		}
 		if (Mathf.Abs (target.position.x - endPos.position.x) <= trackDistance || target.position.x < 0) {//in start or end condition
 			if (!isCamera) {
 				thisRB.velocity = new Vector2 (0, 0);
@@ -48,8 +55,7 @@ public class MovementBind : MonoBehaviour {
 			if (target.position.x >= 0) {
 				if (isCamera) {
 					transform.position = new Vector3 (target.position.x, transform.position.y, transform.position.z);
-				}
-				else if (!isCamera) {
+				} else if (!isCamera) {
 					if (bumped == false) {
 						thisRB.velocity = new Vector2 (parallax * targetRB.velocity.x, 0);
 					} else {
@@ -61,30 +67,4 @@ public class MovementBind : MonoBehaviour {
 
 		bumped = false;
 	}
-
-	/*
-	void FixedUpdate(){
-
-		//If not in end condition, possibly track 
-		if (Mathf.Abs (target.position.x - endPos.position.x) > trackDistance) {
-			//if start condition, wait until player is at position x = 0 to track
-
-			if (target.position.x >= 0) {
-				if (!isCamera) {
-					if (bumped == false) {
-						thisRB.velocity = new Vector2 (parallax * targetRB.velocity.x, 0);
-					} else {
-						thisRB.velocity = new Vector2 (0, 0);
-					}
-				}
-			}
-		}
-		if (Mathf.Abs (target.position.x - endPos.position.x) <= trackDistance || target.position.x <= 0) {//in start or end condition
-			if (!isCamera) {
-				thisRB.velocity = new Vector2 (0, 0);
-			}
-		}
-		bumped = false;
-	}
-	*/
 }
