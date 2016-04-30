@@ -5,20 +5,28 @@ using System.Collections;
 public class PlayerControls : MonoBehaviour {
 
 	public KeyCode jump, moveRight, moveLeft,crouch, useGate;
+	BoxCollider2D[] bColliders;
+	BoxCollider2D bCollider;
+
+	Vector2[] originalCsizes;
+
 	private Animator animator;
 	MovementScript ms;
-	//public float speed;
-	//public float jumpHeight;
 	bool canEnter;//prevent gate spam
 	bool isTeleporting;
-	//public float maxSpeed;
-	//public float maxCrawlSpeed;
 
 
 	Rigidbody2D playerRB;
 
 	// Use this for initialization
 	void Start () {
+		bColliders = GetComponents<BoxCollider2D> ();
+		originalCsizes = new Vector2[bColliders.Length];
+		//bCollider = bColliders [1];
+		for(int i = 0; i < bColliders.Length; i++){
+			originalCsizes[i] = bColliders[i].size;
+		}
+
 		ms = gameObject.GetComponent<MovementScript>();
 		isTeleporting = false;
 		canEnter = true;
@@ -66,30 +74,36 @@ public class PlayerControls : MonoBehaviour {
 		if (!isTeleporting) {
 
 			if (Input.GetKey (crouch)) {
+				for (int i = 0; i < bColliders.Length; i++) {
+					BoxCollider2D bCollider = bColliders [i];
+					if (bCollider.size == originalCsizes[i]) {
+						bCollider.size = new Vector2 (bCollider.size.x, bCollider.size.y / 2);
+						bCollider.offset = new Vector2 (0f, -bCollider.size.y / 2);
+					}
+				}
 				animator.SetBool ("Crouched", true);
 				if (Input.GetKey (moveRight)) {
 					animator.SetInteger ("Direction", 0);
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
 					ms.crawlRight ();
-					//MS://Vector2 vel = playerRB.velocity;
-					//MS://if (Mathf.Abs (playerRB.velocity.x) < maxCrawlSpeed)
-						//MS://playerRB.AddForce (new Vector2 (speed / 2, 0), ForceMode2D.Impulse);//new physics
 
 				} else if (Input.GetKey (moveLeft)) {
 					animator.SetInteger ("Direction", 1);
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
-					ms.crawlLeft ();
-					/* MS://
-					Vector2 vel = playerRB.velocity;
-					if (Mathf.Abs (playerRB.velocity.x) < maxCrawlSpeed)
-						playerRB.AddForce (new Vector2 (-speed / 2, 0), ForceMode2D.Impulse);//new physics
-						*/
-
+					ms.crawlLeft ();				
 				} else
 					animator.SetBool ("Running", false);
 			} else {
+				for (int i = 0; i < bColliders.Length; i++) {
+					bCollider = bColliders [i];
+					if (bCollider.size != originalCsizes[i]) {
+						bCollider.size = originalCsizes[i];
+						bCollider.offset = new Vector2 (0f, -bCollider.size.y / 16);
+					}
+				}
+
 				animator.SetBool ("Crouched", false);
 			
 				if (Input.GetKey (moveRight)) {
@@ -97,33 +111,17 @@ public class PlayerControls : MonoBehaviour {
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
 					ms.moveRight ();
-					/*
-					Vector2 vel = playerRB.velocity;
-					if (Mathf.Abs (playerRB.velocity.x) < maxSpeed)
-						playerRB.AddForce (new Vector2 (speed, 0), ForceMode2D.Impulse);//new physics
-						*/
 				} else if (Input.GetKey (moveLeft)) {
 					animator.SetInteger ("Direction", 1);
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
 					ms.moveLeft ();
-					/*
-					Vector2 vel = playerRB.velocity;
-					if (Mathf.Abs (playerRB.velocity.x) < maxSpeed)
-						playerRB.AddForce (new Vector2 (-speed, 0), ForceMode2D.Impulse);//new physics
-						*/
-
 				} else
 					animator.SetBool ("Running", false);
 
 				if (Input.GetKeyDown (jump)) {
 					if (playerRB.velocity.y == 0) {
 						ms.jump();
-						/*
-						Vector2 vel = playerRB.velocity;
-						float velX = vel.x;
-						playerRB.velocity = new Vector2 (velX, jumpHeight);
-						*/
 					}
 				}
 			}
