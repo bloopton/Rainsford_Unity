@@ -4,7 +4,8 @@ using System.Collections;
 
 public class PlayerControls : MonoBehaviour {
 
-	public KeyCode jump, moveRight, moveLeft,crouch, useGate;
+	public KeyCode jump, moveRight, moveLeft, crouch, useGate;
+
 	BoxCollider2D[] bColliders;
 	BoxCollider2D bCollider;
 

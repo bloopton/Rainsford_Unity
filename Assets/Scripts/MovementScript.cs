@@ -3,17 +3,21 @@ using System.Collections;
 
 public class MovementScript : MonoBehaviour {
 
-	public float speed;
-	public float jumpHeight;
-	public float maxSpeed;
-	public float maxCrawlSpeed;
+	public float jumpPower;
+	public float runForce;
+	public float runVel;
+	public float crawlForce;
+	public float crawlVel;
 	Rigidbody2D playerRB;
 
 	// Use this for initialization
 	void Start () {
-		speed = 15.0f;
-		jumpHeight = 30.0f;
 		playerRB = gameObject.GetComponent<Rigidbody2D>();
+		jumpPower = 80.0f;
+		runForce = 300.0f;
+		runVel = 10;
+		crawlForce = 200;
+		crawlVel = 5;
 	}
 	
 	// Update is called once per frame
@@ -22,40 +26,27 @@ public class MovementScript : MonoBehaviour {
 	}
 
 	public void crawlRight(){
-		Vector2 vel = playerRB.velocity;
-		if (Mathf.Abs (playerRB.velocity.x) < maxCrawlSpeed)
-			playerRB.AddForce (new Vector2 (speed / 2, 0), ForceMode2D.Impulse);//new physics
-		//transform.rotation = Quaternion.Euler(0,0,0);
-
+		if (Mathf.Abs (playerRB.velocity.x) < crawlVel)
+			playerRB.AddForce (new Vector2 (crawlForce, 0), ForceMode2D.Force);
 	}
 
 	public void crawlLeft(){
-		Vector2 vel = playerRB.velocity;
-		if (Mathf.Abs (playerRB.velocity.x) < maxCrawlSpeed)
-			playerRB.AddForce (new Vector2 (-speed / 2, 0), ForceMode2D.Impulse);//new physics
-		//transform.rotation = Quaternion.Euler(0,180,0);
+		if (Mathf.Abs (playerRB.velocity.x) < crawlVel)
+			playerRB.AddForce (new Vector2 (-crawlForce, 0), ForceMode2D.Force);
 
 	}
 
 	public void moveRight(){
-		Vector2 vel = playerRB.velocity;
-		if (Mathf.Abs (playerRB.velocity.x) < maxSpeed)
-			playerRB.AddForce (new Vector2 (speed / 2, 0), ForceMode2D.Impulse);//new physics
-		//transform.rotation = Quaternion.Euler(0,0,0);
-
+		if (Mathf.Abs (playerRB.velocity.x) < runVel)
+			playerRB.AddForce (new Vector2 (runForce, 0), ForceMode2D.Force);
 	}
 
 	public void moveLeft(){
-		Vector2 vel = playerRB.velocity;
-		if (Mathf.Abs (playerRB.velocity.x) < maxSpeed)
-			playerRB.AddForce (new Vector2 (-speed / 2, 0), ForceMode2D.Impulse);//new physics
-		//transform.rotation = Quaternion.Euler(0,180,0);
-	
+		if (Mathf.Abs (playerRB.velocity.x) < runVel)
+			playerRB.AddForce (new Vector2 (-runForce, 0), ForceMode2D.Force);
 	}
 
 	public void jump(){
-		Vector2 vel = playerRB.velocity;
-		float velX = vel.x;
-		playerRB.velocity = new Vector2 (velX, jumpHeight);
+		playerRB.AddForce (new Vector2 (0, jumpPower), ForceMode2D.Impulse);
 	}
 }
