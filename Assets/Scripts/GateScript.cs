@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class GateScript : MonoBehaviour {
 
-	public GameObject player;
+	GameObject player;
 	private Animator animator;
 	public GameObject otherGate;
 	Rigidbody2D playerRB;
@@ -16,7 +16,7 @@ public class GateScript : MonoBehaviour {
 	void Start () {
 		if(parallaxObjs == null)
 			parallaxObjs = GameObject.FindGameObjectsWithTag("Parallax");
-
+		player = GameObject.FindGameObjectWithTag ("Player");
 		playerRB = player.GetComponent<Rigidbody2D> ();
 		animator = this.GetComponent<Animator> ();
 	}

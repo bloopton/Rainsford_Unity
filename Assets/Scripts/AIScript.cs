@@ -12,6 +12,8 @@ public class AIScript : MonoBehaviour {
 	bool isCrawlingRight;
 	bool hostile;
 	bool startHostileTimer;
+	public bool guarding;
+	public bool startsRight;
 
 
 	// Use this for initialization
@@ -19,25 +21,101 @@ public class AIScript : MonoBehaviour {
 		animator = this.GetComponent<Animator> ();
 		hostile = false;
 		startHostileTimer = false;
-		isCrawlingRight = true;
 		thisRB = gameObject.GetComponent<Rigidbody2D> ();
 		timer = 0f;
 		hostileTimer = 0f;
 
 		duration = 2f;
 		ms = GetComponent<MovementScript> ();
+		if (startsRight) {
+			Debug.Log ("Start Right");
+			isCrawlingRight = true;
+			transform.rotation = Quaternion.Euler (0, 0, 0);
+		} else {
+			isCrawlingRight = false;
+			Debug.Log ("Start Left");
+			transform.rotation = Quaternion.Euler (0, 180, 0);
+		}
+		
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (!hostile)
-			patrol ();
-		else {
-			if (isRight()) {
-				ms.moveRight ();
-			} else {
-				ms.moveLeft ();
+		if (!hostile) {
+			if (!guarding)
+				patrol ();
+			else
+				guard ();
+		} else {
+			hostilePatrol ();
+		}
+			
+		if (Mathf.Abs(gameObject.GetComponent<Rigidbody2D> ().velocity.x) > 0) {
+			animator.SetBool ("moving", true);
+		}
+		else animator.SetBool ("hostile", false);
+		Debug.Log ("Wolf velocity is" + gameObject.GetComponent<Rigidbody2D> ().velocity.x);
+		if (gameObject.GetComponent<Rigidbody2D>().velocity.x > 0) {//definitely move to MoveScript
+			transform.rotation = Quaternion.Euler(0,0,0);//face right
+			Debug.Log ("Switch to Right");
+
+		} else if (gameObject.GetComponent<Rigidbody2D>().velocity.x < 0) {
+			transform.rotation = Quaternion.Euler(0,180,0);//face left
+			Debug.Log ("Switch to Left");
+
+		}
+
+
+	}
+
+
+	bool isRight()//possibly move to movement script
+	{
+		if (transform.rotation.y == 0)
+			return true;//right
+		else //(transform.rotation.y == 180)
+			return false;//left driection
+	}
+
+	void guard() {
+		animator.SetBool ("moving", false);
+
+		//for now, sit and do nothing
+	}
+		
+	void patrol ()
+	{
+		if (isCrawlingRight) {
+			ms.crawlRight ();
+			//transform.rotation = Quaternion.Euler(0,0,0);//face right
+
+		} else {
+			ms.crawlLeft ();
+			//transform.rotation = Quaternion.Euler(0,180,0);//face left
+
+		}
+		timer += Time.deltaTime;
+
+		if (timer >= duration) {
+			if (thisRB.velocity.x <= 0) {
+				isCrawlingRight = true;
+				//transform.rotation = Quaternion.Euler(0,0,0);
 			}
+			else {
+				isCrawlingRight = false;
+				//transform.rotation = Quaternion.Euler(0,180,0);
+			}
+			//transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+			timer = 0f;
+		}
+	}
+
+	void hostilePatrol ()
+	{
+		if (isRight()) {
+			ms.moveRight ();
+		} else {
+			ms.moveLeft ();
 		}
 		if (startHostileTimer) {
 			hostileTimer += Time.deltaTime;
@@ -48,48 +126,8 @@ public class AIScript : MonoBehaviour {
 				hostileTimer = 0f;
 			}
 		}
-		if (Mathf.Abs(gameObject.GetComponent<Rigidbody2D> ().velocity.x) > 0) {
-			animator.SetBool ("moving", true);
-		}
-		else animator.SetBool ("hostile", false);
+	}
 		
-	}
-
-	bool isRight()//possibly move to movement script
-	{
-		if (transform.rotation.y == 0)
-			return true;//right
-		else //(transform.rotation.y == 180)
-			return false;//left driection
-	}
-
-	void patrol ()
-	{
-		if (isCrawlingRight) {
-			ms.crawlRight ();
-		} else {
-			ms.crawlLeft ();
-		}
-		timer += Time.deltaTime;
-
-		if (timer >= duration) {
-			if (thisRB.velocity.x <= 0) {
-				isCrawlingRight = true;
-				transform.rotation = Quaternion.Euler(0,0,0);
-			}
-			else {
-				isCrawlingRight = false;
-				transform.rotation = Quaternion.Euler(0,180,0);
-			}
-			//transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-			timer = 0f;
-		}
-		Debug.Log ("X Velocity " + thisRB.velocity.x);
-	}
-
-	IEnumerator delay(){
-		yield return new WaitForSeconds (4);
-	}
 
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy"){

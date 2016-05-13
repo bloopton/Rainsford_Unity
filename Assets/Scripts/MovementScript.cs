@@ -13,11 +13,11 @@ public class MovementScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		playerRB = gameObject.GetComponent<Rigidbody2D>();
-		jumpPower = 80.0f;
+		jumpPower = 100.0f;
 		runForce = 300.0f;
-		runVel = 10;
-		crawlForce = 200;
-		crawlVel = 5;
+		runVel = 10.0f;
+		crawlForce = 300.0f;
+		crawlVel = 3.0f;
 	}
 	
 	// Update is called once per frame

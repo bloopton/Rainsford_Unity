@@ -3,12 +3,13 @@ using System.Collections;
 
 public class MovementBind : MonoBehaviour {
 
-	public GameObject targetObj;
+	//public GameObject targetObj;
 	GameObject[] cols;
 
 	public bool isCamera;
 	bool bumped;
 	Transform target;
+	GameObject targetObj;
 	Rigidbody2D targetRB;//player rigidbody
 	Rigidbody2D thisRB;//background/camera rigidbody
 	public Transform startPos;
@@ -20,10 +21,15 @@ public class MovementBind : MonoBehaviour {
 		if(cols == null)
 			cols = GameObject.FindGameObjectsWithTag("Obstacle");
 
-		target = targetObj.transform;
 		bumped = false;
 		thisRB = GetComponent<Rigidbody2D> ();
+
+
+		targetObj = GameObject.FindGameObjectWithTag ("Player");
+		target = targetObj.transform;
 		targetRB = targetObj.GetComponent<Rigidbody2D>();
+
+
 		trackDistance = Mathf.Abs(Camera.main.transform.position.x - startPos.position.x);
 		//distance between camera and start position intially
 	}

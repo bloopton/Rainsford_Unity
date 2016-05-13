@@ -9,7 +9,8 @@ public class HealthScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rend = gameObject.GetComponent<Renderer> ();
-		ragdoll = GetComponent<RagdollScript> ();
+		if (gameObject.tag == "Player")
+			ragdoll = GetComponent<RagdollScript> ();
 	}
 
 	public void damage()
@@ -19,15 +20,18 @@ public class HealthScript : MonoBehaviour {
 
 	public void die()
 	{
-		rend.material.color = new Color (1, 1, 1, 0);
-		ragdoll.moveTo (gameObject.transform.position);
+		if (gameObject.tag == "Player") {
+			rend.material.color = new Color (1, 1, 1, 0);
+			ragdoll.moveTo (gameObject.transform.position);
+		}
 		Destroy (gameObject);
+
 	}
 
 	// Update is called once per frame
 	void Update () {
 		if (health < 0)
 			die ();
-		Debug.Log ("Health" + health);
+		Debug.Log (gameObject.tag + "Health" + health);
 	}
 }
