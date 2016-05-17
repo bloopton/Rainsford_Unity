@@ -32,6 +32,6 @@ public class HealthScript : MonoBehaviour {
 	void Update () {
 		if (health < 0)
 			die ();
-		Debug.Log (gameObject.tag + "Health" + health);
+		//Debug.Log (gameObject.tag + "Health" + health);
 	}
 }

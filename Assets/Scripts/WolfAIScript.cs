@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AIScript : MonoBehaviour {
+public class WolfAIScript : MonoBehaviour {
 
 	MovementScript ms;
 	private float timer;
@@ -54,16 +54,20 @@ public class AIScript : MonoBehaviour {
 			animator.SetBool ("moving", true);
 		}
 		else animator.SetBool ("hostile", false);
-		Debug.Log ("Wolf velocity is" + gameObject.GetComponent<Rigidbody2D> ().velocity.x);
-		if (gameObject.GetComponent<Rigidbody2D>().velocity.x > 0) {//definitely move to MoveScript
+		//Debug.Log ("Wolf velocity is" + gameObject.GetComponent<Rigidbody2D> ().velocity.x);
+
+		//MOVED TO MOVESCRIPT
+
+		/*if (gameObject.GetComponent<Rigidbody2D>().velocity.x > 0) {//definitely move to MoveScript
 			transform.rotation = Quaternion.Euler(0,0,0);//face right
-			Debug.Log ("Switch to Right");
+			//Debug.Log ("Switch to Right");
 
 		} else if (gameObject.GetComponent<Rigidbody2D>().velocity.x < 0) {
 			transform.rotation = Quaternion.Euler(0,180,0);//face left
-			Debug.Log ("Switch to Left");
+			//Debug.Log ("Switch to Left");
 
-		}
+		}*/
+		///////////////////
 
 
 	}
