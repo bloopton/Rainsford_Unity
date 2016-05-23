@@ -84,13 +84,13 @@ public class PlayerControls : MonoBehaviour {
 				}
 				animator.SetBool ("Crouched", true);
 				if (Input.GetKey (moveRight)) {
-					animator.SetInteger ("Direction", 0);
+					//animator.SetInteger ("Direction", 0);
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
 					ms.crawlRight ();
 
 				} else if (Input.GetKey (moveLeft)) {
-					animator.SetInteger ("Direction", 1);
+					//animator.SetInteger ("Direction", 1);
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
 					ms.crawlLeft ();				
@@ -108,12 +108,12 @@ public class PlayerControls : MonoBehaviour {
 				animator.SetBool ("Crouched", false);
 			
 				if (Input.GetKey (moveRight)) {
-					animator.SetInteger ("Direction", 0);
+					//animator.SetInteger ("Direction", 0);
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
 					ms.moveRight ();
 				} else if (Input.GetKey (moveLeft)) {
-					animator.SetInteger ("Direction", 1);
+					//animator.SetInteger ("Direction", 1);
 					if (playerRB.velocity.y == 0)
 						animator.SetBool ("Running", true);
 					ms.moveLeft ();

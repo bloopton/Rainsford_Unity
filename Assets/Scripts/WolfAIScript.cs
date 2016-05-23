@@ -4,14 +4,14 @@ using System.Collections;
 public class WolfAIScript : MonoBehaviour {
 
 	MovementScript ms;
-	private float timer;
-	private float hostileTimer;
-	private Animator animator;
+	public float timer;
+	public float hostileTimer;
+	public Animator animator;
 	private float duration;
 	Rigidbody2D thisRB;
 	bool isCrawlingRight;
-	bool hostile;
-	bool startHostileTimer;
+	public bool hostile;
+	public bool startHostileTimer;
 	public bool guarding;
 	public bool startsRight;
 
@@ -132,7 +132,7 @@ public class WolfAIScript : MonoBehaviour {
 		}
 	}
 		
-
+	/*
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy"){
 		//if currently hostile, damage
@@ -153,6 +153,7 @@ public class WolfAIScript : MonoBehaviour {
 		
 	}
 
+	/*
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Player") {
 			startHostileTimer = false;
@@ -170,7 +171,7 @@ public class WolfAIScript : MonoBehaviour {
 			//continue chasing, possibly redundant
 		}
 	}
-	*/
+
 
 	void OnTriggerExit2D(Collider2D other){
 		Debug.Log ("Exitted");
@@ -180,5 +181,6 @@ public class WolfAIScript : MonoBehaviour {
 			//return to patrol position/pattern
 		}
 	}
+	*/
 
 }

@@ -26,11 +26,11 @@ public class MovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 	
-		if (gameObject.GetComponent<Rigidbody2D>().velocity.x > 0) {//definitely move to MoveScript
+		if (gameObject.GetComponent<Rigidbody2D>().velocity.x > 0.02f) {
 			transform.rotation = Quaternion.Euler(0,0,0);//face right
 			//Debug.Log ("Switch to Right");
 
-		} else if (gameObject.GetComponent<Rigidbody2D>().velocity.x < 0) {
+		} else if (gameObject.GetComponent<Rigidbody2D>().velocity.x < -0.02f) {
 			transform.rotation = Quaternion.Euler(0,180,0);//face left
 			//Debug.Log ("Switch to Left");
 

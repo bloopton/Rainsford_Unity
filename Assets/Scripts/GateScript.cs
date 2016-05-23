@@ -14,8 +14,8 @@ public class GateScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if(parallaxObjs == null)
-			parallaxObjs = GameObject.FindGameObjectsWithTag("Parallax");
+		if (parallaxObjs == null) 
+			parallaxObjs = GameObject.FindGameObjectsWithTag ("Parallax");
 		player = GameObject.FindGameObjectWithTag ("Player");
 		playerRB = player.GetComponent<Rigidbody2D> ();
 		animator = this.GetComponent<Animator> ();
@@ -33,6 +33,7 @@ public class GateScript : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D(Collider2D other){
+
 		if (other.gameObject.tag == "Player") {
 			animator.SetBool ("Hovering", true);
 		}
