@@ -23,6 +23,8 @@ public class VisionScript : MonoBehaviour {
 			ws.hostile = true;
 			ws.animator.SetBool ("hostile", true);
 			//become hostile, chase
+			Debug.Log("Triggered");
+
 		}
 	}
 
@@ -41,6 +43,8 @@ public class VisionScript : MonoBehaviour {
 			ws.startHostileTimer = true;
 			//turn off hostile BUT continue chasing for fixedTime.
 			//return to patrol position/pattern
+			Debug.Log("Triggered");
+
 		}
 	}
 

@@ -11,6 +11,7 @@ public class MovementScript : MonoBehaviour {
 	public float crawlVel;
 	Rigidbody2D playerRB;
 
+
 	// Use this for initialization
 	void Start () {
 		

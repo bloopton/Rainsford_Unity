@@ -16,7 +16,7 @@ public class HitBoxScript : MonoBehaviour {
 	
 	}
 
-	void OnCollisionEnter2D(Collision2D coll) {
+	void OnTriggerEnter2D(Collider2D coll) {
 		if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy"){
 			//if currently hostile, damage
 			if (ws.hostile) {
@@ -24,15 +24,14 @@ public class HitBoxScript : MonoBehaviour {
 			}
 		}
 	}
-	void OnCollisionStay2D(Collision2D coll) {
+	void OnTriggerStay2D(Collider2D coll) {
 		if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy"){
 			//if currently hostile, continue to damage
+
 			if (ws.hostile) {
 				coll.gameObject.GetComponent<HealthScript> ().damage ();
 			}
 		}
 	}
-	void OnCollisionExit2D(Collision2D coll) {
 
-	}
 }
