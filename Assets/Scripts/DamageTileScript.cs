@@ -15,25 +15,50 @@ public class DamageTileScript : MonoBehaviour {
 	
 	}
 
-	void OnCollisionEnter2D(Collision2D coll) {
-		if (damagePlayer) {
-			if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy") {
+	void OnTriggerEnter2D(Collider2D coll) {
+		if (gameObject.tag == "Projectile") {
+			if (gameObject.GetComponent<Rigidbody2D> ().velocity.x < .02f && gameObject.GetComponent<Rigidbody2D> ().velocity.y != .02f) {
+				if (damagePlayer) {
+					if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy") {
+						coll.gameObject.GetComponent<HealthScript> ().damage ();
+					}
+				} else if (coll.gameObject.tag == "Enemy") {
+					coll.gameObject.GetComponent<HealthScript> ().damage ();
+				}
+			}
+		} else {
+			if (damagePlayer) {
+				if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy") {
+					coll.gameObject.GetComponent<HealthScript> ().damage ();
+				}
+			}
+			else if (coll.gameObject.tag == "Enemy") {
 				coll.gameObject.GetComponent<HealthScript> ().damage ();
 			}
 		}
-		else if (coll.gameObject.tag == "Enemy") {
-			coll.gameObject.GetComponent<HealthScript> ().damage ();
-		}
+
+
 	}
 
-	void OnCollisionStay2D(Collision2D coll) {
-		if (damagePlayer) {
-			if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy") {
+	void OnTriggerStay2D(Collider2D coll) {
+		if (gameObject.tag == "Projectile") {
+			if (gameObject.GetComponent<Rigidbody2D> ().velocity.x < .02f && gameObject.GetComponent<Rigidbody2D> ().velocity.y != .02f) {
+				if (damagePlayer) {
+					if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy") {
+						coll.gameObject.GetComponent<HealthScript> ().damage ();
+					}
+				} else if (coll.gameObject.tag == "Enemy") {
+					coll.gameObject.GetComponent<HealthScript> ().damage ();
+				}
+			}
+		} else {
+			if (damagePlayer) {
+				if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Enemy") {
+					coll.gameObject.GetComponent<HealthScript> ().damage ();
+				}
+			} else if (coll.gameObject.tag == "Enemy") {
 				coll.gameObject.GetComponent<HealthScript> ().damage ();
 			}
-		}
-		else if (coll.gameObject.tag == "Enemy") {
-			coll.gameObject.GetComponent<HealthScript> ().damage ();
 		}
 	}
 }
